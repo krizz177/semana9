@@ -1,0 +1,113 @@
+
+
+
+body {
+    
+    background-color: orangered;  
+}
+
+#contenedor {
+    width: 95%;
+   margin :30px auto ;
+   
+}
+
+header {
+    background-color : beige;  
+}
+
+header h1 {
+    padding:10px;
+    text-align: center;
+    color: chocolate;
+    margin:auto;
+}
+
+header img {
+    width: 100%;
+    vertical-align: bottom;
+    
+}
+
+nav {
+    background-color: yellow;
+}
+
+nav a {
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: red;
+}
+
+
+main {
+    display: flex;
+}
+
+
+
+aside {
+    width: 25%;
+    
+    background-color: antiquewhite;
+}
+
+aside h2 {
+    
+    padding-left: 20px;
+    color :blue ;
+}
+
+aside  p {
+    text-align: justify;
+    margin: 15px;
+}
+aside img {
+    width: 40%;
+    margin :20px auto ;
+    display:block
+}
+
+section {
+   width:50%;
+   padding :10px ;
+   display:flex ;
+   flex-direction :row;
+   justify-content :space-around ;
+   background-color :White ;
+   flex-wrap :wrap ;
+  
+}
+
+section figure  {
+   width :30% ;
+   margin-top :10px ;
+   flex-direction:row;
+  
+}
+
+section figure img {
+   width :90% ;
+   margin :10px auto ;
+   display:block ;
+}
+
+
+
+section  figure figcaption {
+   margin :10px ;
+   text-align:center ;
+   color : red ;
+}
+
+footer {
+    padding :10px ;
+    text-align:center ;
+    background-color :Green ;
+ }
+ 
+ footer p {
+    margin-bottom :10px ;
+    color :White ;
+ }

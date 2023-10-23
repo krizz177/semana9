@@ -1,0 +1,24 @@
+#contenedor {
+    display: flex;
+    flex-direction: column;
+    background-color: green; 
+
+}
+
+p {
+    margin: 5px;
+    padding: 10px;
+    text-align: justify;
+}
+
+p.box1 {
+    background-color: chocolate;
+}
+
+p.box2 {
+    background-color: orange;
+}
+
+p.box3 {
+    background-color: cyan;
+}
